@@ -10,4 +10,7 @@ urlpatterns = [
                        path('implementation' , TemplateView.as_view(template_name='implementation.html') , name='implementation'),
                        path('labs' , TemplateView.as_view(template_name='labs.html') , name='labs'),
                        path('equipment' , TemplateView.as_view(template_name='equipment.html') , name='equipment'),
+                       path('student' , TemplateView.as_view(template_name='student.html') , name='student'),
+                       path('teacher' , TemplateView.as_view(template_name='teacher.html') , name='teacher'),
+                       path('team' , TemplateView.as_view(template_name='team.html') , name='team'),
 ]

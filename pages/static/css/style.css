@@ -1,4 +1,14 @@
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.btn-light{
+
+}
+
+.card{
+    width: 18rem; 
+}
+.jumbotron{
+    height: 100vh;
+}
 footer {
     left: 0;
     bottom: 0;
@@ -8,7 +18,8 @@ footer {
     text-align: center;
   }
 .carousel-item {
-    height: 800px;
+
+ height: 100vh;
 }
 .icon-bar {
     position: fixed;

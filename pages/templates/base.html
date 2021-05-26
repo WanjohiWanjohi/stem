@@ -36,6 +36,20 @@
                <b>PROGRAMS</b>                 
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="{% url 'student' %}">
+                     Student Programs
+                    </a>
+                  <a class="dropdown-item" href="{% url 'teacher' %}">
+                      Teacher Programs
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <b>WHAT WE DO</b> 
+                </a>
+                
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="{% url 'implementation' %}">
                     Project Implementation</a>
                   <a class="dropdown-item" href="{% url 'project' %}">
@@ -44,20 +58,7 @@
                     Tinkering Labs</a>
                   <a class="dropdown-item" href="{% url 'equipment' %}">
                         Equipment Lending</a>
-                  
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 <b>WHAT WE DO</b> 
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">
-                     Student Programs
-                    </a>
-                  <a class="dropdown-item" href="#">
-                      Teacher Programs
-                  </a>
-                </div>
+                  </div>
               </li>
             <li class="nav-item">
               <a class="nav-link" href="{% url 'blog' %}">
@@ -69,7 +70,7 @@
                 <b>ABOUT</b>
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="{% url 'team' %}">
                     OUR TEAM</a>
                 <a class="dropdown-item" href="{% url 'join' %}">
                     JOIN OUR TEAM</a>
@@ -78,9 +79,6 @@
          
         </div>
       </nav>
-
-
-
 
       {% include 'socials.html' %}
     {% block content %} 
