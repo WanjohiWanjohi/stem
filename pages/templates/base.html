@@ -36,14 +36,14 @@
                <b>PROGRAMS</b>                 
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">
-                      <b>Project Implementation</b></a>
-                  <a class="dropdown-item" href="#">
-                      <b>Projects</b></a>
-                  <a class="dropdown-item" href="#">
-                    <b>Tinkering Labs</b></a>
-                  <a class="dropdown-item" href="#">
-                        <b>Equipment Lending</b></a>
+                  <a class="dropdown-item" href="{% url 'implementation' %}">
+                    Project Implementation</a>
+                  <a class="dropdown-item" href="{% url 'project' %}">
+                      Projects</a>
+                  <a class="dropdown-item" href="{% url 'labs' %}">
+                    Tinkering Labs</a>
+                  <a class="dropdown-item" href="{% url 'equipment' %}">
+                        Equipment Lending</a>
                   
               </li>
               <li class="nav-item dropdown">
@@ -52,10 +52,10 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">
-                     <b>Student Programs</b> 
+                     Student Programs
                     </a>
                   <a class="dropdown-item" href="#">
-                      <b>Teacher Programs</b>
+                      Teacher Programs
                   </a>
                 </div>
               </li>
@@ -70,9 +70,9 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">
-                    <b>OUR TEAM</b></a>
-                <a class="dropdown-item" href="#">
-                    <b>JOIN OUR TEAM</b></a>
+                    OUR TEAM</a>
+                <a class="dropdown-item" href="{% url 'join' %}">
+                    JOIN OUR TEAM</a>
             </li>
           </ul>
          
