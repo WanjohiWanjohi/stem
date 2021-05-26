@@ -1,19 +1,15 @@
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 
-.slide {
-    z-index: -1;
-}
-
 .carousel-item {
-    height: 400px;
+    height: 800px;
 }
-
 .icon-bar {
     position: fixed;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    z-index: 1;
 }
 
 
