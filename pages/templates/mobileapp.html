@@ -1,0 +1,19 @@
+{% extends "base.html" %} {% block content %}
+{% load static %}
+<div class="container my-3 col " style="text-align: center;">
+    <img class="img-fluid vh-100" src="{% static 'images/code.jpg' %}" alt="Card image cap" style="object-fit: cover">
+
+</div>
+
+<div class="text-center mx-8 my-5 col">
+<span>
+    Create your own app in JavaScript using either block 
+based programming or text. We enhance learners to gain 
+valuable experience in creating simple Apps for smart 
+phone
+
+</span>
+</div>
+{% include 'footer.html' %}
+
+{% endblock %}

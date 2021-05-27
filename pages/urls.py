@@ -10,7 +10,14 @@ urlpatterns = [
                        path('implementation' , TemplateView.as_view(template_name='implementation.html') , name='implementation'),
                        path('labs' , TemplateView.as_view(template_name='labs.html') , name='labs'),
                        path('equipment' , TemplateView.as_view(template_name='equipment.html') , name='equipment'),
-                       path('student' , TemplateView.as_view(template_name='student.html') , name='student'),
-                       path('teacher' , TemplateView.as_view(template_name='teacher.html') , name='teacher'),
+                       path('stem' , TemplateView.as_view(template_name='stem.html') , name='stem'),
+                       path('invention' , TemplateView.as_view(template_name='invention.html') , name='invention'),
+                       path('coding' , TemplateView.as_view(template_name='coding.html') , name='coding'),
+                       path('mobileapp' , TemplateView.as_view(template_name='mobileapp.html') , name='mobileapp'),
+                       path('3d' , TemplateView.as_view(template_name='3d.html') , name='3d'),
+                       path('competition' , TemplateView.as_view(template_name='competition.html') , name='competition'),
                        path('team' , TemplateView.as_view(template_name='team.html') , name='team'),
+                       path('project/robotics' , TemplateView.as_view(template_name='robotics.html') , name='robotics'),
+                    #    path('project/invention' , TemplateView.as_view(template_name='robotics.html') , name='robotics'),
+
 ]

@@ -1,0 +1,30 @@
+{% extends "base.html" %} {% block content %}
+{% load static %}
+<div class="container my-3 col " style="text-align: center;">
+    <img class="img-fluid vh-100" src="{% static 'images/scratch.jpg' %}" alt="Card image cap" style="object-fit: cover">
+
+</div>
+
+<div class="text-center mx-8 my-5 col">
+<span>
+    Creative Coding will introduce the learners to the fundamental 
+concepts of object oriented programming, using code as a 
+method for self-expression in a variety of media, such as 2D 
+graphics, animation, image, and video processing.
+
+</span>
+
+<p class='my-3'>
+    We have designed a curriculum for students with low computer 
+literacy, with the end goal of having participants make basic 
+programs and feel comfortable to continue their coding 
+education by accessing free resources on their own. Learning to 
+creatively express yourself with code is very empowering. The 
+curriculum empowers students to develop programming skills, 
+computational thinking, and a creative mind-set to become 
+creators with technology.
+</p>
+</div>
+{% include 'footer.html' %}
+
+{% endblock %}

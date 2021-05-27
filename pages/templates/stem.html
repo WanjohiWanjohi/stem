@@ -1,0 +1,28 @@
+{% extends "base.html" %} {% block content %}
+{% load static %}
+<div class="container my-3 col " style="text-align: center;">
+    <img class="img-fluid vh-100" src="{% static 'images/image_2.jpg' %}" alt="Card image cap" style="object-fit: cover">
+
+</div>
+
+<div class="text-center mx-8 my-5 col">
+<span>
+    We engage learners in hands-on, cross-curricular STEM Robotics 
+solution by providing the resources to design, build and program 
+their creations while helping them develop essential skills such as 
+creativity, critical thinking, collaboration, and communication.
+
+</span>
+
+<p class='my-3'>
+    Students and teachers can leverage the advanced features and 
+functionality of robotics along with the <b>STEM</b>, <b>robotics</b> and 
+<b>Computer Integrated Manufacturing (CIM)</b> lessons to build job 
+specific skills with focus on Computer Science, Engineering and 
+specific areas of CTE/vocational education such as Manufacturing, 
+Information Technology and Pre-Engineering
+</p>
+</div>
+{% include 'footer.html' %}
+
+{% endblock %}

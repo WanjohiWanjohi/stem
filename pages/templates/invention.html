@@ -1,0 +1,27 @@
+{% extends "base.html" %} 
+{% load static %}
+{% block content %}
+
+<div class="container my-3 col " style="text-align: center;">
+    <img class="img-fluid vh-100" src="{% static 'images/invent.jpg' %}" alt="Card image cap" style="object-fit: cover">
+
+</div>
+
+<div class="text-center mx-8 my-5 col">
+<span>
+    Invention education is a proven way to teach <em>disciplined inventive 
+        thinking</em> in the classroom. 
+</span>
+<p>
+    Inventive thinking is necessary to build 
+an innovative, entrepreneurial and diverse workforce to meet our 
+country’s future needs. Invention Education puts science, 
+engineering design, robotics, coding, making, and other skills into 
+action!
+</p>
+</div>
+
+
+{% include 'footer.html' %}
+
+{% endblock %}
